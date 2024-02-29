@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c04d192d-93f2-4f64-8b0c-4e64a86d2b00" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/django_api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/django_api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/api/google_login.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/api/google_oauth_api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/api/setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/api/setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/management/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/management/commands/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/management/commands/grpcserver.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/management/commands/grpcserver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/message/ml_instance.proto" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/proto/ml_instance.proto" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/message/ml_instance_pb2.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/proto/ml_instance_pb2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/message/ml_instance_pb2_grpc.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/proto/ml_instance_pb2_grpc.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/django_test/services/google_oauth.py" beforeDir="false" afterPath="$PROJECT_DIR$/django_test/services/google_oauth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/google_oauth.txt" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2cvyqMJ9wo78KFvAJM1TrC7GjEZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Tuan\Code\django_api" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c04d192d-93f2-4f64-8b0c-4e64a86d2b00" name="Default Changelist" comment="" />
+      <created>1709006536834</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1709006536834</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
