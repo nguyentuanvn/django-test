@@ -1,0 +1,4 @@
+django==4.2.1
+grpcio==1.62.0
+requests==2.31.0
+protobuf==4.25.3

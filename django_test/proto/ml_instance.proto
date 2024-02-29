@@ -1,0 +1,44 @@
+syntax = "proto3";
+
+package ml_instance;
+
+service MLInstance {
+    rpc setup (MLInstanceSetup) returns (MLInstanceResponse) {}
+    rpc import_data (MLImport) returns (MLImportResponse) {}
+    rpc predict (MLInstanceAction) returns (MLInstanceResponse) {}
+    rpc export (MLInstanceAction) returns (MLInstanceResponse) {}
+    rpc create_dataset (MLInstanceAction) returns (MLInstanceResponse) {}
+    rpc logs (MLInstanceAction) returns (MLInstanceResponse) {}
+    rpc download_checkpoint (MLInstanceAction) returns (MLInstanceResponse) {}
+}
+
+message MLInstanceSetup {
+    string name = 1;
+    string token = 2;
+}
+
+message MLInstanceResponse {
+    string name = 1;
+    string status = 2;
+}
+
+message MLData {
+    string filename = 1;
+    oneof content {
+        bytes file_content = 10;
+        string base64_content = 11;
+    }
+}
+
+message MLImport {
+    repeated MLData data = 1;
+}
+
+message MLImportResponse {
+    repeated string filename = 1;
+}
+
+message MLInstanceAction {
+    string name = 1;
+    string action = 2;
+}
